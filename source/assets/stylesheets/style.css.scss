@@ -1,0 +1,21 @@
+//COMPASS IMPORTS
+@import 'compass/css3';
+@import 'compass/utilities/sprites';
+@import 'compass/typography';
+@import "compass/reset";
+
+//SUSY GRID
+@import "grid";
+
+//CONFIG FILES
+@import "variables";
+@import "sprites";
+@import "mixings";
+@import "fonts";
+
+//GENERIC SITE STYLES
+h1 {
+	color: red;
+	background: #ffff00;
+	//@include span-columns(3);
+}
