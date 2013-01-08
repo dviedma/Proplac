@@ -1,0 +1,4 @@
+$home-sprite-dimensions: true;
+$home-sprite-layout: smart;
+@import "home/*.png";
+@include all-home-sprites;

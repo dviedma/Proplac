@@ -57,7 +57,7 @@ set :css_dir, 'assets/stylesheets'
 
 set :js_dir, 'assets/js'
 
-set :images_dir, 'assets/images'
+set :images_dir, 'assets/img'
 
 # Build-specific configuration
 configure :build do

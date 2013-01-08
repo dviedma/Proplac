@@ -13,9 +13,136 @@
 @import "mixings";
 @import "fonts";
 
-//GENERIC SITE STYLES
-h1 {
-	color: red;
-	background: #ffff00;
-	//@include span-columns(3);
+
+//COMMONS STYLES
+.icono,
+.etiqueta {
+	float: left;
 }
+
+//HEADER STYLES
+
+//SLIDER
+/* General slider styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    margin-right: 0;
+    /*overflow: hidden;*/
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.slides-wrapper {
+  width: 100%;
+  /*overflow: hidden;*/
+  position: relative;
+  height: 400px;
+  margin: 0 auto;
+}
+/* line 13, ../../sass/core/funcarousel.scss */
+.slides-wrapper .slides {
+  height: 400px;
+  position: absolute;
+}
+/* line 16, ../../sass/core/funcarousel.scss */
+.slides-wrapper .slides .slide {
+  float: left;
+  margin-right: 20px;
+  width: 100%;
+  display: none;
+  width: 960px;
+  position: relative;
+}
+
+/* line 25, ../../sass/core/funcarousel.scss */
+.control-nav {
+  padding-top: 10px;
+  margin: 0 auto;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+/* line 32, ../../sass/core/funcarousel.scss */
+.control-nav .wrapper {
+  margin: 0 auto;
+}
+/* line 34, ../../sass/core/funcarousel.scss */
+.control-nav .wrapper .control {
+  display: block;
+  background: #dddddd;
+  width: 11px;
+  height: 12px;
+  float: left;
+  text-indent: -9999px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+/* line 43, ../../sass/core/funcarousel.scss */
+.control-nav .wrapper .control.active {
+  background: #aaaaaa;
+}
+
+/* line 50, ../../sass/core/funcarousel.scss */
+.nav-arrow {
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 210px;
+  text-indent: -9999px;
+  cursor: pointer;
+  background: #dddddd;
+}
+/* line 59, ../../sass/core/funcarousel.scss */
+.nav-arrow.left {
+  left: 0;
+}
+/* line 62, ../../sass/core/funcarousel.scss */
+.nav-arrow.right {
+  right: 0;
+}
+
+/* line 67, ../../sass/core/funcarousel.scss */
+.slides.blur {
+  opacity: 0.5;
+}
+/* line 69, ../../sass/core/funcarousel.scss */
+.slides.blur .text-block {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+/* line 72, ../../sass/core/funcarousel.scss */
+.slides.blur .media-block {
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom slides style */
+.text-block {
+    float: left;
+    width: 48%;
+    margin-top: 80px;
+}
+.media-block {
+    float: right;
+    margin-top: 130px;
+}
+h2 {
+    font-size: 64px;
+    font-family: 'helvetica', arial, san-serif;
+}
+p {
+    font-size: 16px;
+    font-family: 'helvetica', arial, san-serif;
+}
+
+
