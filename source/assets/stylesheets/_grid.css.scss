@@ -1,15 +1,15 @@
 @import "susy";
 
-$total-columns  : 16;
-$column-width   : 40px;
-$gutter-width   : 20px;
-$grid-padding   : 0;
+$total-columns  : 7;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : 1em;
 
 //$break          : 12;
 
 
 .main {
-	@include container;
+	//@include container;
 	//@include susy-grid-background;
 }
 

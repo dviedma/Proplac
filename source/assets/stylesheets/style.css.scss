@@ -13,27 +13,52 @@
 @import "mixings";
 @import "fonts";
 
-
 //COMMONS STYLES
 .icono,
 .etiqueta {
 	float: left;
 }
+body {
+	font-size: 14px;
+	overflow: hidden;
+}
+header .inner,
+footer .inner,
+section .inner {
+	background: green;
+	@include container;
+	@include susy-grid-background;
+}
 
 //HEADER STYLES
+header {
+	background: #cccccc;
+	span {
+		font-size: 2em;
+	}
+}
+
+//PROYECTOS
+.servicios {
+	.col {
+		@include span-columns(7);
+		&.last {
+			@include omega();
+		}
+	}
+	.project {
+		width: 100%;
+		height: 100px;
+		background: red;
+		margin-bottom: 20px;
+	}
+}
 
 //SLIDER
+.hero {
+	background: #c1c1c1;
+}
 /* General slider styles */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 100%;
-    overflow: hidden;
-}
-
 .slider {
     margin-right: 0;
     /*overflow: hidden;*/
@@ -143,6 +168,22 @@ h2 {
 p {
     font-size: 16px;
     font-family: 'helvetica', arial, san-serif;
+}
+
+//MEDIA QUERIES
+@include at-breakpoint(50em 12) {
+	header .inner,
+	footer .inner,
+	section .inner {
+		background: yellow;
+		@include container;
+  		@include susy-grid-background;
+	}
+	.servicios {
+		.col {
+			@include span-columns(4);
+		}
+	}
 }
 
 
