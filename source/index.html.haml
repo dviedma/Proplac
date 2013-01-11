@@ -7,24 +7,24 @@
 						%h2 First Slide
 						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat dolor, rutrum vel consequat a, tempor eget diam. Fusce vulputate scelerisque arcu, ac egestas lorem faucibus eget. Fusce egestas dictum iaculis. Donec vel bibendum leo. Nulla lobortis ultricies varius.
 					.media-block
-						%img{:alt => "", :src => "img/slide1.jpg", :width => "480"}
-				.slide
-					.text-block
-						%h2 Second Slide
-						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat dolor, rutrum vel consequat a, tempor eget diam. Fusce vulputate scelerisque arcu, ac egestas lorem faucibus eget. Fusce egestas dictum iaculis. Donec vel bibendum leo. Nulla lobortis ultricies varius.
-					.media-block
-						%img{:alt => "", :src => "img/slide2.jpg", :width => "480"}
-				.slide
-					.text-block
-						%h2 Third Slide
-						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat dolor, rutrum vel consequat a, tempor eget diam. Fusce vulputate scelerisque arcu, ac egestas lorem faucibus eget. Fusce egestas dictum iaculis. Donec vel bibendum leo. Nulla lobortis ultricies varius.
-					.media-block
-						%img{:alt => "", :src => "img/slide3.jpg", :width => "480"}
+						%img{:alt => "", :src => "assets/img/slide1.jpg"}
+
 %section.servicios
 	.inner
-		.col
-			.project
-		.col
-			.project
-		.col.last
-			.project
+		#project1.project
+		#project2.project
+		#project3.project
+		#project4.project
+%section.social
+	.inner
+		%h2.sec-title join the fabric fam
+		.social-box.first.youtube
+		.social-box.twitter
+			%a.tweethandler{:href => "http://twitter.com/apliiq"} @apliiq
+			%span#tweet
+			%a.tweetlink{:href => "https://twitter.com/intent/tweet?screen_name=apliiq"} tweet us
+			%a{:href => "http://twitter.com/apliiq"}
+				.logo twitter
+		//.social-box.instagram
+		.social-box.last.facebook
+			%abbr.timeago{:title => ""}
