@@ -147,6 +147,16 @@ header {
 		@include container;
   		//@include susy-grid-background;
 	}
+	body {
+		font-size: 16px;
+		line-height: 19px;
+		h2 {
+			font-size:  22px;
+		}
+		h3 {
+
+		}
+	}
 	header {
 		padding-bottom: 70px;
 		.logo {
@@ -185,19 +195,41 @@ header {
 		.project {
 			@include span-columns(6);
 			&#project2,
-			&#project4 {
+			&#project4,
+			&#project6 {
 				@include omega();
 			}
 		}
 	}
 }
-/*
 @include at-breakpoint(768px 12) {
 	header .inner,
 	footer .inner,
 	section .inner {
 		@include container;
   		//@include susy-grid-background;
+	}
+	header {
+		padding-bottom: 15px;
+		#navigation {
+			clear: none;
+			margin-left: 20px;
+		}
+	}
+	body {
+		font-size: 19px;
+		line-height: 25px;
+		h2 {
+			font-size:  25px;
+		}
+		h3 {
+			font-size:  20px;
+		}
+	}
+	.hero h2 {
+		font-size: 50px;
+		line-height: 52px;
+		font-weight: bold;
 	}
 	.hero .slider .slide {
 		.text-block {
@@ -209,12 +241,13 @@ header {
 	.servicios {
 		.project {
 			@include span-columns(4);
+			height: 650px;
 			&#project4 {
-				float: left;
+				@include span-columns(4);
 			}
 		}
 	}
-}*/
+}
 
 
 
