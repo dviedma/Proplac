@@ -1,5 +1,6 @@
 //= require funcarousel
 //= require timeago
+//= require picturefill
 
 jQuery(document).ready(function () {
 	$.proplac();

@@ -27,7 +27,7 @@ footer .inner,
 section .inner {
 	background: green;
 	@include container;
-	@include susy-grid-background;
+	//@include susy-grid-background;
 }
 nav {
 	a {
@@ -62,11 +62,15 @@ header {
 	.slider {
 		overflow: hidden;
 		.slide {
-
 			.text-block {
-
+				margin: 0 auto;
+				//height: 300px;
+				//max-width: 940px;
 			}
-			.media-block img {
+			.media-block {
+				height: 100%;
+			}
+			img {
 				display: block;
 				margin: 0 auto;
 				width: 100%;
@@ -78,13 +82,13 @@ header {
 
 
 //MEDIA QUERIES
-@include at-breakpoint(500px 12) {
+@include at-breakpoint(400px 12) {
 	header .inner,
 	footer .inner,
 	section .inner {
 		background: orange;
 		@include container;
-  		@include susy-grid-background;
+  		//@include susy-grid-background;
 	}
 	.servicios {
 		.project {
@@ -96,13 +100,20 @@ header {
 		}
 	}
 }
-@include at-breakpoint(800px 12) {
+@include at-breakpoint(768px 12) {
 	header .inner,
 	footer .inner,
 	section .inner {
 		background: yellow;
 		@include container;
-  		@include susy-grid-background;
+  		//@include susy-grid-background;
+	}
+	.hero .slider .slide {
+		.text-block {
+			margin: -300px auto 0;
+			height: 300px;
+			max-width: 940px;
+		}
 	}
 	.servicios {
 		.project {

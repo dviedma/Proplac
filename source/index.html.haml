@@ -3,11 +3,17 @@
 		.slides-wrapper
 			.slides
 				.slide
+					/ %img{:alt => "", :src => "assets/img/slide1.jpg"}
+					%div{"data-alt" => "A giant stone face at The Bayon temple in Angkor Thom, Cambodia", "data-picture" => "", "class" => "media-block"}
+						%div{"data-src" => "assets/img/slide1-iphone.jpg"}
+						%div{"data-media" => "(min-width: 400px)", "data-src" => "assets/img/slide1-ipad.jpg"}
+						%div{"data-media" => "(min-width: 768px)", "data-src" => "assets/img/slide1.jpg"}
+						/ Fallback content for non-JS browsers. Same img src as the initial, unqualified source element.
+						%noscript
+							%img{:alt => "A giant stone face at The Bayon temple in Angkor Thom, Cambodia", :src => "assets/img/slide1-iphone.jpg"}
 					.text-block
 						%h2 First Slide
 						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat dolor, rutrum vel consequat a, tempor eget diam. Fusce vulputate scelerisque arcu, ac egestas lorem faucibus eget. Fusce egestas dictum iaculis. Donec vel bibendum leo. Nulla lobortis ultricies varius.
-					.media-block
-						%img{:alt => "", :src => "assets/img/slide1.jpg"}
 
 %section.servicios
 	.inner
@@ -15,16 +21,17 @@
 		#project2.project
 		#project3.project
 		#project4.project
-%section.social
-	.inner
-		%h2.sec-title join the fabric fam
-		.social-box.first.youtube
-		.social-box.twitter
-			%a.tweethandler{:href => "http://twitter.com/apliiq"} @apliiq
-			%span#tweet
-			%a.tweetlink{:href => "https://twitter.com/intent/tweet?screen_name=apliiq"} tweet us
-			%a{:href => "http://twitter.com/apliiq"}
-				.logo twitter
-		//.social-box.instagram
-		.social-box.last.facebook
-			%abbr.timeago{:title => ""}
+/
+	%section.social
+		.inner
+			%h2.sec-title join the fabric fam
+			.social-box.first.youtube
+			.social-box.twitter
+				%a.tweethandler{:href => "http://twitter.com/apliiq"} @apliiq
+				%span#tweet
+				%a.tweetlink{:href => "https://twitter.com/intent/tweet?screen_name=apliiq"} tweet us
+				%a{:href => "http://twitter.com/apliiq"}
+					.logo twitter
+			.social-box.instagram
+			.social-box.last.facebook
+				%abbr.timeago{:title => ""}
