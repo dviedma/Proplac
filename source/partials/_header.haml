@@ -2,32 +2,39 @@
 	.inner
 		%h1.logo
 			%a(href="proplac-barcelona.com")
-				%img(src="assets/img/logo.png" alt="Logo")
-		%nav.navegacion
+				%img(src="#{lorem.image('100x50')}" alt="Logo")
+		%nav#navigation.menu
 			%ul
-				%li
+				%li#menu-btn
+					%a(href="#servicios" ) Menu
+				%li.menu-item
 					%a(href="#servicios" ) Menu1
-				%li
+				%li.menu-item
 					%a(href="#quienes-somos" ) Menu2
-				%li
+				%li.menu-item
 					%a(href="#referencias" ) Menu3
-				%li
+				%li.menu-item
 					%a(href="#contacto" ) Menu4
-				%li
-					%a(href="#siguenos" )Menu5
-		%menu.contacto
+				%li.menu-item
+					%a(href="#siguenos" ) Menu5
+		%menu.contacto.menu
 			%ul
-				%li.telefono
-					%span.icono.home-telefono
-					%span.etiqueta 670 986 876
-				%li.mail
+				%li#contacto-btn
+					%a(href="#servicios" ) Contacto
+				%li.telefono.menu-item
+					%a
+						%span.icono.home-telefono
+						%span.etiqueta 670 986 876
+				%li.mail.menu-item
 					%a(href="mailto:hola@proplac-barcelona.com" )
 						%span.icono.home-mail
 						%span.etiqueta hi@email.com
-				%li.twitter
+				%li.twitter.menu-item
 					%a(href="http://twitter.com/proplac-barcelona" target="_blank" )
 						%span.icono.home-twitter
-				%li.facebook
+						%span.etiqueta Twitter
+				%li.facebook.menu-item
 					%a(href="http://facebook.com/proplac-barcelona" target="_blank" )
 						%span.icono.home-facebook
+						%span.etiqueta Facebook
 

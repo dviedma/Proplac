@@ -4,23 +4,55 @@
 			.slides
 				.slide
 					/ %img{:alt => "", :src => "assets/img/slide1.jpg"}
-					%div{"data-alt" => "A giant stone face at The Bayon temple in Angkor Thom, Cambodia", "data-picture" => "", "class" => "media-block"}
-						%div{"data-src" => "assets/img/slide1-iphone.jpg"}
-						%div{"data-media" => "(min-width: 400px)", "data-src" => "assets/img/slide1-ipad.jpg"}
-						%div{"data-media" => "(min-width: 768px)", "data-src" => "assets/img/slide1.jpg"}
-						/ Fallback content for non-JS browsers. Same img src as the initial, unqualified source element.
+					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+						%div{"data-src" => "#{lorem.image('400x267')}"}
+						%div{"data-media" => "(min-width: 400px)", "data-src" => "#{lorem.image('800x398')}"}
+						%div{"data-media" => "(min-width: 768px)", "data-src" => "#{lorem.image('2000x720')}"}
 						%noscript
-							%img{:alt => "A giant stone face at The Bayon temple in Angkor Thom, Cambodia", :src => "assets/img/slide1-iphone.jpg"}
+							%img{:alt => "", :src => "#{lorem.image('400x267')}"}
 					.text-block
-						%h2 First Slide
-						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat dolor, rutrum vel consequat a, tempor eget diam. Fusce vulputate scelerisque arcu, ac egestas lorem faucibus eget. Fusce egestas dictum iaculis. Donec vel bibendum leo. Nulla lobortis ultricies varius.
+						%h2 Nunc erat dolor
+						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 %section.servicios
 	.inner
+		%h2 SECTION
 		#project1.project
+			%h3 Subsection1
+			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+				%div{"data-src" => "#{lorem.image('320x100')}"}
+				%div{"data-media" => "(min-width: 400px)", "data-src" => "#{lorem.image('300x200')}"}
+				%div{"data-media" => "(min-width: 768px)", "data-src" => "#{lorem.image('300x300')}"}
+				%noscript
+					%img{:alt => "", :src => "#{lorem.image('320x100')}"}
+			%p #{lorem.paragraph}
 		#project2.project
+			%h3 Subsection2
+			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+				%div{"data-src" => "#{lorem.image('320x100')}"}
+				%div{"data-media" => "(min-width: 400px)", "data-src" => "#{lorem.image('300x200')}"}
+				%div{"data-media" => "(min-width: 768px)", "data-src" => "#{lorem.image('300x300')}"}
+				%noscript
+					%img{:alt => "", :src => "#{lorem.image('320x100')}"}
+			%p #{lorem.paragraph}
 		#project3.project
+			%h3 Subsection3
+			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+				%div{"data-src" => "#{lorem.image('320x100')}"}
+				%div{"data-media" => "(min-width: 400px)", "data-src" => "#{lorem.image('300x200')}"}
+				%div{"data-media" => "(min-width: 768px)", "data-src" => "#{lorem.image('300x300')}"}
+				%noscript
+					%img{:alt => "", :src => "#{lorem.image('320x100')}"}
+			%p #{lorem.paragraph}
 		#project4.project
+			%h3 Subsection4
+			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+				%div{"data-src" => "#{lorem.image('320x100')}"}
+				%div{"data-media" => "(min-width: 400px)", "data-src" => "#{lorem.image('300x200')}"}
+				%div{"data-media" => "(min-width: 768px)", "data-src" => "#{lorem.image('300x300')}"}
+				%noscript
+					%img{:alt => "", :src => "#{lorem.image('320x100')}"}
+			%p #{lorem.paragraph}
 /
 	%section.social
 		.inner

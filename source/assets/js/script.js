@@ -19,6 +19,25 @@ jQuery(document).ready(function () {
 			var options = $.extend({}, defaults, ops);
 
 			/**
+			 * Section: Responsive Navigation
+			 */
+			var navigation = {
+				/**
+				 * Responsive Navigation
+				 *
+				 * @method build
+				 * @return undefined
+				 * @param undefined
+				 */
+				build:function () {
+
+					$('#menu-btn, #contacto-btn').click(function() {
+						$(this).closest('.menu').toggleClass('open');
+					})
+				}
+			};
+
+			/**
 			 * Section: Fresh Fabrics
 			 */
 			var sliderhero = {
@@ -141,6 +160,7 @@ jQuery(document).ready(function () {
 
 			//sliderhero.build();
 			//social.build('elviajeropolar');
+			navigation.build();
 		}
 	});
 
