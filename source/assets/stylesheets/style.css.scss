@@ -14,21 +14,28 @@
 @import "fonts";
 
 //COMMONS STYLES
-h2 {
-	font-size: 20px;
-}
-h3 {
-	font-size: 17px;
-	font-weight: bold;
-}
 .icono,
 .etiqueta {
 	float: left;
 }
+/*html {
+	font-size: 62.5%;
+}*/
 body {
-	font-size: 14px;
+	font-size: 100%;
+	line-height: 1.5;
 	overflow-x: hidden;
 	font-family: helvatica, arial, san-serif;
+	p {
+		font-size: 0.875em;
+	}
+	h3 {
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+	h2 {
+		font-size: 1.25em;
+	}
 	a {
 		text-decoration: none;
 	}
@@ -41,7 +48,7 @@ header .inner,
 footer .inner,
 section .inner {
 	@include container;
-	//@include susy-grid-background;
+	@include susy-grid-background;
 }
 
 //HEADER STYLES
@@ -88,7 +95,7 @@ header {
 
 		}
 	}
-	
+
 }
 
 //PROYECTOS
@@ -140,22 +147,15 @@ header {
 
 
 //MEDIA QUERIES
-@include at-breakpoint(400px 12) {
+@include at-breakpoint(500px 10) {
 	header .inner,
 	footer .inner,
 	section .inner {
 		@include container;
-  		//@include susy-grid-background;
+  		@include susy-grid-background;
 	}
 	body {
-		font-size: 16px;
-		line-height: 19px;
-		h2 {
-			font-size:  22px;
-		}
-		h3 {
-
-		}
+		font-size: 112.5%;
 	}
 	header {
 		padding-bottom: 70px;
@@ -193,7 +193,7 @@ header {
 	}
 	.servicios {
 		.project {
-			@include span-columns(6);
+			@include span-columns(5);
 			&#project2,
 			&#project4,
 			&#project6 {
@@ -202,12 +202,14 @@ header {
 		}
 	}
 }
-@include at-breakpoint(768px 12) {
+
+
+@include at-breakpoint(800px 12) {
 	header .inner,
 	footer .inner,
 	section .inner {
 		@include container;
-  		//@include susy-grid-background;
+  		@include susy-grid-background;
 	}
 	header {
 		padding-bottom: 15px;
@@ -217,14 +219,7 @@ header {
 		}
 	}
 	body {
-		font-size: 19px;
-		line-height: 25px;
-		h2 {
-			font-size:  25px;
-		}
-		h3 {
-			font-size:  20px;
-		}
+		font-size: 125%;
 	}
 	.hero h2 {
 		font-size: 50px;
@@ -241,13 +236,15 @@ header {
 	.servicios {
 		.project {
 			@include span-columns(4);
-			height: 650px;
+			height: 35em;
 			&#project4 {
 				@include span-columns(4);
 			}
 		}
 	}
 }
+
+
 
 
 
