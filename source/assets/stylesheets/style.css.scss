@@ -126,9 +126,12 @@ header {
 	.slider {
 		overflow: hidden;
 		.slide {
+			position: absolute;
+			top: -1000px;
 			display: none;
 			&.active {
 				display: block;
+				position: static;
 			}
 			.text-block {
 				margin: 0 auto;

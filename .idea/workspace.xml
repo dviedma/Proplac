@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/js/funcarousel.js" afterPath="$PROJECT_DIR$/source/assets/js/funcarousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/js/script.js" afterPath="$PROJECT_DIR$/source/assets/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html.haml" afterPath="$PROJECT_DIR$/source/index.html.haml" />
     </list>
@@ -27,13 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="funcarousel.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/assets/js/funcarousel.js">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="51" selection-start="3019" selection-end="3019" vertical-scroll-proportion="0.31711408">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="110" column="0" selection-start="5162" selection-end="5162" vertical-scroll-proportion="-49.608696">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,7 +39,7 @@
       <file leaf-file-name="style.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="18" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0">
+            <state line="132" column="31" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,7 +48,18 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/assets/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="12" selection-start="4751" selection-end="4751" vertical-scroll-proportion="0.0">
+            <state line="138" column="24" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funcarousel.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/assets/js/funcarousel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="29" selection-start="323" selection-end="323" vertical-scroll-proportion="0.19700967">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -71,8 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/source/assets/js/funcarousel.js" />
       </list>
@@ -80,8 +89,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1277" />
-    <option name="y" value="49" />
+    <option name="x" value="1311" />
+    <option name="y" value="35" />
     <option name="width" value="1224" />
     <option name="height" value="1300" />
   </component>
@@ -242,9 +251,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1277" y="49" width="1224" height="1300" extended-state="0" />
+    <frame x="1311" y="35" width="1224" height="1300" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -252,9 +262,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25382003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -326,32 +336,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="31" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="77" selection-end="77" vertical-scroll-proportion="-2.4347825">
+        <state line="110" column="0" selection-start="5162" selection-end="5162" vertical-scroll-proportion="-49.608696">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="12" selection-start="4751" selection-end="4751" vertical-scroll-proportion="0.0">
+        <state line="138" column="24" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="18" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/assets/js/funcarousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="51" selection-start="3019" selection-end="3019" vertical-scroll-proportion="0.31711408">
+        <state line="16" column="29" selection-start="323" selection-end="323" vertical-scroll-proportion="0.19700967">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

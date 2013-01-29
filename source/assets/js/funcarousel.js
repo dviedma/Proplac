@@ -4,14 +4,17 @@
  ============================================================ */
 (function ($) {
 	var numSlides,
-		animating;
+		animating,
+		t;
 
 	var $controlnav;
 
 	$.fn.funCarousel = function (ops) {
 		var defaults = {
-			controlNav: true,
-   			speed: 'fast'
+			controlNav:true,
+			speed:'fast',
+			auto:true,
+			autoInterval:2500
 		};
 
 		var options = $.extend({}, defaults, ops);
@@ -21,8 +24,6 @@
 
 			build:function (self) {
 				numSlides = self.find('.slide').size();
-
-				console.log(numSlides);
 
 				if (numSlides > 1) {
 					//Add number to slides
@@ -58,6 +59,11 @@
 					$arrowRight.click({self:self}, fc.navRight);
 
 					self.append($arrowLeft).append($arrowRight);
+
+					//auto rotation
+					if (options.auto) {
+						fc.slideAuto(self);
+					}
 				}
 
 				return self;
@@ -76,6 +82,10 @@
 
 				var $clickedBullet = $(this);
 
+				if(e.type == "click"){
+					clearTimeout(t);
+				}
+
 				if (Math.abs(self.find('.control-nav .active').index() - $clickedBullet.index()) > 1) {
 					self.find('.slides').addClass('blur');
 				}
@@ -84,16 +94,18 @@
 				self.find('.control-nav .active').removeClass('active');
 				$clickedBullet.addClass('active');
 
-				$slides.find('.active').fadeOut();
-				self.find('.slide[rel="' + $clickedBullet.index() + '"]').fadeIn(function () {
-					self.find('.slide').removeClass('active');
-					$(this).addClass('active');
-				});
+				self.find('.slide').hide().removeClass('active');
+				self.find('.slide[rel="' + $clickedBullet.index() + '"]').show().addClass('active');
+
+				//auto rotation
+				if (options.auto) {
+					fc.slideAuto(self);
+				}
 			},
 
 			/**
 			 * Fired when the user clicks on the left navigation
-			 * * NOTES: the formulas applied for threshold detection etc. should be tested in different scenarios (number of slides, slides per shift, slides per screen, etc)
+			 * * NOTES: the formulas applied for threshold detection etc. should be tested in different scenarios (number of slides, slides per slides per screen, etc)
 			 *
 			 * @method navLeft
 			 * @return undefined
@@ -111,7 +123,7 @@
 
 				//animate slider
 				$active.fadeOut();
-				var $prev = ($active.prev().size() > 0)? $active.prev() : self.find('.slide').last();
+				var $prev = ($active.prev().size() > 0) ? $active.prev() : self.find('.slide').last();
 				$prev.fadeIn(function () {
 					animating = false;
 					fc.moveBulletLeft(self);
@@ -143,7 +155,7 @@
 
 			/**
 			 * Fired when the user clicks on the right navigation
-			 * NOTES: the formulas applied for threshold detection etc. should be tested in different scenarios (number of slides, slides per shift, slides per screen, etc)
+			 * NOTES: the formulas applied for threshold detection etc. should be tested in different scenarios (number of slides, slides per slides per screen, etc)
 			 *
 			 * @method navRight
 			 * @return undefined
@@ -162,13 +174,18 @@
 
 				//animate slider
 				$active.fadeOut();
-				var $next = ($active.next().size() > 0)? $active.next() : self.find('.slide').first();
+				var $next = ($active.next().size() > 0) ? $active.next() : self.find('.slide').first();
 				$next.fadeIn(function () {
 					animating = false;
 					fc.moveBulletRight(self);
 
 					self.find('.slide').removeClass('active');
 					$(this).addClass('active');
+
+					//auto rotation
+					if (options.auto) {
+						fc.slideAuto(self);
+					}
 				});
 			},
 
@@ -192,6 +209,24 @@
 					$controlActive.removeClass('active');
 					$control.eq(0).addClass('active');
 				}
+			},
+
+			/**
+			 * Auxiliar function to get fire the auto navigation
+			 *
+			 * @method slideAuto
+			 * @return undefined
+			 * @param self {HTMLElement} The element to create the carousel for.
+			 */
+			slideAuto:function (self) {
+				var e = {
+					data:{
+						self:self
+					}
+				};
+				t = setTimeout(function () {
+					fc.navRight(e);
+				}, options.autoInterval);
 			}
 
 		};
