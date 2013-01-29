@@ -50,12 +50,8 @@ jQuery(document).ready(function () {
 				 */
 				build:function () {
 
-					$('#slider1').funCarousel({
-						'securityMargin':1,
-						'speed':1000,
-						'parallax':true,
-						'controlNav':true
-					});
+					$('#slider1').funCarousel();
+
 				}
 			};
 
@@ -158,7 +154,7 @@ jQuery(document).ready(function () {
 			};
 
 
-			//sliderhero.build();
+			sliderhero.build();
 			//social.build('elviajeropolar');
 			navigation.build();
 		}

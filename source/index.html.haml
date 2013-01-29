@@ -2,6 +2,28 @@
 	#slider1.slider
 		.slides-wrapper
 			.slides
+				.slide.active
+					/ %img{:alt => "", :src => "assets/img/slide1.jpg"}
+					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+						%div{"data-src" => "#{lorem.image('400x267')}"}
+						%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('800x398')}"}
+						%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('2000x720')}"}
+						%noscript
+							%img{:alt => "", :src => "#{lorem.image('400x267')}"}
+					.text-block
+						%h2 Nunc erat dolor
+						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				.slide
+					/ %img{:alt => "", :src => "assets/img/slide1.jpg"}
+					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+						%div{"data-src" => "#{lorem.image('400x267')}"}
+						%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('800x398')}"}
+						%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('2000x720')}"}
+						%noscript
+							%img{:alt => "", :src => "#{lorem.image('400x267')}"}
+					.text-block
+						%h2 Nunc erat dolor
+						%p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				.slide
 					/ %img{:alt => "", :src => "assets/img/slide1.jpg"}
 					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
