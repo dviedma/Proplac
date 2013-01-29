@@ -12,9 +12,10 @@
 	$.fn.funCarousel = function (ops) {
 		var defaults = {
 			controlNav:true,
+			arrowsNav:false,
 			speed:'fast',
 			auto:true,
-			autoInterval:2500
+			autoInterval:5000
 		};
 
 		var options = $.extend({}, defaults, ops);
@@ -52,13 +53,15 @@
 					}
 
 					//Build arrows nav
-					var $arrowLeft = $('<span class="nav-arrow left">left</span>'),
-						$arrowRight = $('<span class="nav-arrow right">right</span>');
+					if (options.arrowsNav) {
+						var $arrowLeft = $('<span class="nav-arrow left">left</span>'),
+							$arrowRight = $('<span class="nav-arrow right">right</span>');
 
-					$arrowLeft.click({self:self}, fc.navLeft);
-					$arrowRight.click({self:self}, fc.navRight);
+						$arrowLeft.click({self:self}, fc.navLeft);
+						$arrowRight.click({self:self}, fc.navRight);
 
-					self.append($arrowLeft).append($arrowRight);
+						self.append($arrowLeft).append($arrowRight);
+					}
 
 					//auto rotation
 					if (options.auto) {
@@ -112,7 +115,8 @@
 			 * @param e {Event} User click event
 			 */
 			navLeft:function (e) {
-				var self = e.data.self,
+				//not in use
+				/*var self = e.data.self,
 					$slides = self.find('.slides'),
 					$active = $slides.find('.active');
 
@@ -130,7 +134,7 @@
 
 					self.find('.slide').removeClass('active');
 					$(this).addClass('active');
-				});
+				});*/
 			},
 
 			/**
@@ -173,9 +177,9 @@
 				animating = true;
 
 				//animate slider
-				$active.fadeOut();
+				$active.fadeOut(800);
 				var $next = ($active.next().size() > 0) ? $active.next() : self.find('.slide').first();
-				$next.fadeIn(function () {
+				/*$next.fadeIn(800, function () {
 					animating = false;
 					fc.moveBulletRight(self);
 
@@ -186,7 +190,20 @@
 					if (options.auto) {
 						fc.slideAuto(self);
 					}
-				});
+				});*/
+
+				$active.fadeOut(510, function(){
+					animating = false;
+					$active.removeClass('active')
+					$next.addClass('active').fadeIn(799);
+
+					fc.moveBulletRight(self);
+
+					//auto rotation
+					if (options.auto) {
+						fc.slideAuto(self);
+					}
+				})
 			},
 
 			/**

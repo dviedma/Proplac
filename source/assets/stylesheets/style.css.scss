@@ -125,6 +125,7 @@ header {
 	padding-bottom: 20px;
 	.slider {
 		overflow: hidden;
+		position: relative;
 		.slide {
 			position: absolute;
 			top: -1000px;
