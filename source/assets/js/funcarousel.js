@@ -15,7 +15,7 @@
 			arrowsNav:false,
 			speed:'fast',
 			auto:true,
-			autoInterval:5000
+			autoInterval:12000
 		};
 
 		var options = $.extend({}, defaults, ops);
@@ -177,8 +177,6 @@
 				animating = true;
 
 				//animate slider
-				$active.fadeOut(800);
-				var $next = ($active.next().size() > 0) ? $active.next() : self.find('.slide').first();
 				/*$next.fadeIn(800, function () {
 					animating = false;
 					fc.moveBulletRight(self);
@@ -191,11 +189,11 @@
 						fc.slideAuto(self);
 					}
 				});*/
-
-				$active.fadeOut(510, function(){
+				var $next = ($active.next().size() > 0) ? $active.next() : self.find('.slide').first();
+				$active.fadeOut(800, function(){
 					animating = false;
 					$active.removeClass('active')
-					$next.addClass('active').fadeIn(799);
+					$next.addClass('active').fadeIn(800);
 
 					fc.moveBulletRight(self);
 
