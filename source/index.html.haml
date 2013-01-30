@@ -93,6 +93,20 @@
 				%noscript
 					%img{:alt => "", :src => "#{lorem.image('500x100')}"}
 			%p #{lorem.paragraph}
+%section.quienes-somos
+	.inner
+		%h2 SECTION2
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "#{lorem.image('150x150')}"}
+			%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('400x400')}"}
+			%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('580x730')}"}
+			%noscript
+				%img{:alt => "", :src => "#{lorem.image('150x150')}"}
+		.text-block
+			%p 	#{lorem.paragraph}
+			%p 	#{lorem.paragraph}
+			%p 	#{lorem.paragraph}
+
 /
 	%section.social
 		.inner

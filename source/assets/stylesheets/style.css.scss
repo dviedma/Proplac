@@ -98,30 +98,8 @@ header {
 
 }
 
-//PROYECTOS
-.servicios {
-	h2 {
-		margin-bottom: 10px;
-	}
-	.project {
-		@include span-columns(12);
-		&.last {
-			@include omega();
-		}
-	}
-	.project {
-		width: 100%;
-		margin-bottom: 20px;
-		img {
-			margin: 5px 0;
-			max-width: 100%;
-			display: block;
-		}
-	}
-}
-
 //SLIDER
-.hero {
+section.hero {
 	padding-bottom: 20px;
 	.slider {
 		overflow: hidden;
@@ -206,6 +184,39 @@ header {
 	}
 }
 
+//PROYECTOS
+section.servicios {
+	h2 {
+		margin-bottom: 10px;
+	}
+	.project {
+		@include span-columns(12);
+		&.last {
+			@include omega();
+		}
+	}
+	.project {
+		width: 100%;
+		margin-bottom: 20px;
+		img {
+			margin: 5px 0;
+			max-width: 100%;
+			display: block;
+		}
+	}
+}
+
+//QUINES SOMOS
+section.quienes-somos {
+	.media-block {
+		@include span-columns(3);
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+
 
 //MEDIA QUERIES
 @include at-breakpoint(500px 10) {
@@ -252,7 +263,7 @@ header {
 			float: left;
 		}
 	}
-	.servicios {
+	section.servicios {
 		.project {
 			@include span-columns(5);
 			&#project2,
@@ -262,6 +273,12 @@ header {
 			}
 		}
 	}
+	section.quienes-somos {
+		.media-block {
+			@include span-columns(5);
+		}
+	}
+
 }
 
 
@@ -282,25 +299,30 @@ header {
 	body {
 		font-size: 125%;
 	}
-	.hero h2 {
+	section.hero h2 {
 		font-size: 50px;
 		line-height: 52px;
 		font-weight: bold;
 	}
-	.hero .slider .slide {
+	section.hero .slider .slide {
 		.text-block {
 			margin: -300px auto 0;
 			height: 300px;
 			max-width: 940px;
 		}
 	}
-	.servicios {
+	section.servicios {
 		.project {
 			@include span-columns(4);
 			height: 35em;
 			&#project4 {
 				@include span-columns(4);
 			}
+		}
+	}
+	section.quienes-somos {
+		.media-block {
+			@include span-columns(6);
 		}
 	}
 }
