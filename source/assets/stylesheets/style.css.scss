@@ -206,7 +206,7 @@ section.servicios {
 	}
 }
 
-//QUINES SOMOS
+//QUIENES SOMOS
 section.quienes-somos {
 	.media-block {
 		@include span-columns(3);
@@ -216,7 +216,13 @@ section.quienes-somos {
 	}
 }
 
-
+//SOCIAL
+section.social {
+	.social-box {
+		background: red;
+		height: 200px;
+	}
+}
 
 //MEDIA QUERIES
 @include at-breakpoint(500px 10) {
@@ -323,6 +329,11 @@ section.quienes-somos {
 	section.quienes-somos {
 		.media-block {
 			@include span-columns(6);
+		}
+	}
+	section.social {
+		.social-box {
+			@include span-columns(3);
 		}
 	}
 }
