@@ -109,12 +109,36 @@
 %section.trabajos-realizados
 	.inner
 		%h2 SECTION3
-		%img{:alt => "", :src => "#{lorem.image('600x400')}", :class => "landscape"}
-		%img{:alt => "", :src => "#{lorem.image('300x400')}", :class => "portrait"}
-		%img{:alt => "", :src => "#{lorem.image('300x400')}", :class => "portrait"}
-		%img{:alt => "", :src => "#{lorem.image('600x400')}", :class => "landscape"}
-		%img{:alt => "", :src => "#{lorem.image('300x400')}", :class => "portrait"}
-		%img{:alt => "", :src => "#{lorem.image('600x400')}", :class => "landscape"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "#{lorem.image('300x200')}"}
+			%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('600x400')}"}
+			%noscript
+				%img{:alt => "", :src => "#{lorem.image('300x200')}"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "#{lorem.image('200x200')}"}
+			%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('400x400')}"}
+			%noscript
+				%img{:alt => "", :src => "#{lorem.image('200x200')}"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "#{lorem.image('150x200')}"}
+			%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('300x400')}"}
+			%noscript
+				%img{:alt => "", :src => "#{lorem.image('150x200')}"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "#{lorem.image('300x200')}"}
+			%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('600x400')}"}
+			%noscript
+				%img{:alt => "", :src => "#{lorem.image('300x200')}"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "#{lorem.image('150x200')}"}
+			%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('300x400')}"}
+			%noscript
+				%img{:alt => "", :src => "#{lorem.image('150x200')}"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "#{lorem.image('325x200')}"}
+			%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('650x400')}"}
+			%noscript
+				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
 %section.social
 	.inner
 		%h2.sec-title SECTION4

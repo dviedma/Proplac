@@ -221,7 +221,9 @@ section.quienes-somos {
 
 //TRABAJOS REALIZADOS
 section.trabajos-realizados {
-	img {
+	.media-block {
+		float: left;
+		height: 200px;
 		margin: 0 7px 7px 0;
 	}
 }
@@ -229,8 +231,11 @@ section.trabajos-realizados {
 //SOCIAL
 section.social {
 	.social-box {
-		background: red;
-		height: 200px;
+		background: #cccccc;
+		height: 300px;
+		width: 300px;
+		float: right;
+		margin: 0 0px 15px 15px;
 	}
 }
 
@@ -290,7 +295,9 @@ section.social {
 		}
 	}
 	section.trabajos-realizados {
-		img {
+		.media-block {
+			float: left;
+			height: 400px;
 			margin: 0 11px 11px 0;
 		}
 	}
@@ -302,7 +309,11 @@ section.social {
 			float: right;
 		}
 	}
-
+	section.social {
+		.social-box {
+			//margin: 0 0px 11px 11px;
+		}
+	}
 }
 
 
@@ -353,13 +364,13 @@ section.social {
 		}
 	}
 	section.trabajos-realizados {
-		img {
+		.media-block {
 			margin: 0 15px 15px 0;
 		}
 	}
 	section.social {
 		.social-box {
-			@include span-columns(3);
+			margin: 0 0px 15px 15px;
 		}
 	}
 }
