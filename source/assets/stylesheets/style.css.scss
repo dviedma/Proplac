@@ -210,9 +210,19 @@ section.servicios {
 section.quienes-somos {
 	.media-block {
 		@include span-columns(3);
+		@include omega();
+		margin-left: 7px;
+		float: right;
 		img {
 			max-width: 100%;
 		}
+	}
+}
+
+//TRABAJOS REALIZADOS
+section.trabajos-realizados {
+	img {
+		margin: 0 7px 7px 0;
 	}
 }
 
@@ -279,9 +289,17 @@ section.social {
 			}
 		}
 	}
+	section.trabajos-realizados {
+		img {
+			margin: 0 11px 11px 0;
+		}
+	}
 	section.quienes-somos {
 		.media-block {
 			@include span-columns(5);
+			@include omega();
+			margin-left: 11px;
+			float: right;
 		}
 	}
 
@@ -329,6 +347,14 @@ section.social {
 	section.quienes-somos {
 		.media-block {
 			@include span-columns(6);
+			@include omega();
+			margin-left: 15px;
+			float: right;
+		}
+	}
+	section.trabajos-realizados {
+		img {
+			margin: 0 15px 15px 0;
 		}
 	}
 	section.social {
