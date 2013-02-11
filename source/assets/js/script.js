@@ -39,6 +39,9 @@ jQuery(document).ready(function () {
 						e.preventDefault();
 						jQuery.scrollTo( $( $(this).attr('href') ) , { duration:1000});
 					});
+					$('#contacto-menu').find('a').click(function(e){
+						e.preventDefault();
+					});
 					$('#menu-btn, #contacto-btn').click(function() {
 						$(this).closest('.menu').toggleClass('open');
 					})
