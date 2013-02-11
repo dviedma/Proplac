@@ -1,6 +1,7 @@
 //= require funcarousel
 //= require timeago
 //= require picturefill
+//= require vendor/jquery.scrollTo
 
 jQuery(document).ready(function () {
 	$.proplac();
@@ -31,6 +32,13 @@ jQuery(document).ready(function () {
 				 */
 				build:function () {
 
+					$('#logo').click(function(){
+						jQuery.scrollTo({top:'0', left:'+=0px'}, { duration:1000});
+					});
+					$('#navigation').find('a').click(function(e){
+						e.preventDefault();
+						jQuery.scrollTo( $( $(this).attr('href') ) , { duration:1000});
+					});
 					$('#menu-btn, #contacto-btn').click(function() {
 						$(this).closest('.menu').toggleClass('open');
 					})
