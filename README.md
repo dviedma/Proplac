@@ -1,2 +1,1 @@
-Responsive
-=======
+http://thepolarway.com/responsive
