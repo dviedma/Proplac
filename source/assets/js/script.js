@@ -4,14 +4,14 @@
 //= require vendor/jquery.scrollTo
 
 jQuery(document).ready(function () {
-	$.proplac();
+	$.responsive();
 });
 
 (function ($) {
 	var variable;
 
 	$.extend({
-		proplac:function (ops) {
+		responsive:function (ops) {
 
 			var defaults = {
 
