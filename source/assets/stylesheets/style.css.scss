@@ -22,23 +22,7 @@
 	font-size: 62.5%;
 }*/
 body {
-	font-size: 100%;
-	line-height: 1.5;
 	overflow-x: hidden;
-	font-family: helvatica, arial, san-serif;
-	p {
-		font-size: 0.875em;
-	}
-	h3 {
-		font-size: 1.1em;
-		font-weight: bold;
-	}
-	h2 {
-		font-size: 1.25em;
-	}
-	a {
-		text-decoration: none;
-	}
 }
 section {
 	border-bottom: 1px solid black;
@@ -339,7 +323,6 @@ section.social {
 	section.hero h2 {
 		font-size: 50px;
 		line-height: 52px;
-		font-weight: bold;
 	}
 	section.hero .slider .slide {
 		.text-block {
