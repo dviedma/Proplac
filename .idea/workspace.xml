@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.woff" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Proplac-SplashPage/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss" afterPath="$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
     </list>
     <ignored path="Proplac.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +36,7 @@
       <file leaf-file-name="style.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="318" column="5" selection-start="4694" selection-end="4694" vertical-scroll-proportion="0.38536584">
+            <state line="366" column="0" selection-start="5339" selection-end="5339" vertical-scroll-proportion="0.9317073">
               <folding />
             </state>
           </provider>
@@ -418,7 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="318" column="5" selection-start="4694" selection-end="4694" vertical-scroll-proportion="0.38536584">
+        <state line="366" column="0" selection-start="5339" selection-end="5339" vertical-scroll-proportion="0.9317073">
           <folding />
         </state>
       </provider>
