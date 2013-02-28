@@ -48,19 +48,17 @@ header .inner,
 footer .inner,
 section .inner {
 	@include container;
-	@include susy-grid-background;
+	//@include susy-grid-background;
 }
 
 //HEADER STYLES
 header {
-	height: 50px;
+	height: 25px;
 	padding: 15px 0 70px;
 	background: black;
 	@include clearfix();
 	.logo {
 		margin: 0 auto;
-		width: 100px;
-		height: 50px;
 		margin-bottom: 20px;
 	}
 	#navigation, menu {
@@ -74,6 +72,7 @@ header {
 			background: white;
 			color: black;
 			display: block;
+			text-transform: uppercase;
 			&:hover {
 				background: #e7e6e6;
 			}
@@ -245,7 +244,7 @@ section.social {
 	footer .inner,
 	section .inner {
 		@include container;
-  		@include susy-grid-background;
+  		//@include susy-grid-background;
 	}
 	body {
 		font-size: 112.5%;
@@ -274,7 +273,7 @@ section.social {
 					padding-left: 0;
 					&:hover {
 						background: none;
-						color: #cccccc;
+						color: $proplac-red;
 
 					}
 				}
@@ -322,13 +321,13 @@ section.social {
 	footer .inner,
 	section .inner {
 		@include container;
-  		@include susy-grid-background;
+  		//@include susy-grid-background;
 	}
 	header {
 		padding-bottom: 15px;
 		#navigation {
 			clear: none;
-			margin-left: 20px;
+			margin-left: 50px;
 		}
 	}
 	body {
