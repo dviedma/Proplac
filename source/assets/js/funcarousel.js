@@ -14,7 +14,7 @@
 			controlNav:true,
 			arrowsNav:false,
 			speed:'fast',
-			auto:true,
+			auto:false,
 			autoInterval:12000
 		};
 
