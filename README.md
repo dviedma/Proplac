@@ -1,2 +1,1 @@
-Proplac
-=======
+http://thepolarway.com/responsive
