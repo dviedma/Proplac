@@ -4,6 +4,7 @@
 //= require vendor/jquery.scrollTo
 
 jQuery(document).ready(function () {
+    //alert(test);
 	$.responsive();
 });
 

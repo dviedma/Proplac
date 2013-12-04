@@ -12,6 +12,8 @@ activate :livereload
 # First: gem install compass-susy-plugin
 # require 'susy'
 
+#require 'json'
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
