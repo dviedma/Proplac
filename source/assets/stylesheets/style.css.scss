@@ -23,10 +23,16 @@
 }*/
 body {
 	overflow-x: hidden;
+	li {
+		font-size: 14px;
+	}
 }
 section {
-	border-bottom: 1px solid $proplac-black;
 	margin-bottom: 30px;
+	.inner {
+		border-bottom: 1px dashed #999999;
+		padding-bottom: 40px;
+	}
 }
 header .inner,
 footer .inner,
@@ -35,11 +41,29 @@ section .inner {
 	//@include susy-grid-background;
 }
 
+li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+strong {
+	font-weight: bold;
+}
+
 //HEADER STYLES
 header {
 	height: 25px;
 	padding: 15px 0 70px;
 	background: $proplac-black;
+/*	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;*/
 	@include clearfix();
 	.logo {
 		margin: 0 auto;
@@ -70,10 +94,18 @@ header {
 			}
 		}
 	}
+	nav {
+		li {
+			list-style: none;
+		}
+	}
 	menu {
 		right: 20px;
 		a {
 			height: 14px;
+		}
+		li {
+			list-style: none;
 		}
 		.etiqueta {
 			padding: 3px 0;
@@ -117,9 +149,10 @@ section.hero {
 	}
 
 	.control-nav {
+		display: none;
 		padding-top: 10px;
 		margin: 0 auto;
-		bottom: 0;
+		bottom: 60px;
 		margin: 0;
 		position: absolute;
 		width: 100%;
@@ -239,6 +272,12 @@ section.social {
 	}
 	body {
 		font-size: 112.5%;
+		li {
+			font-size: 16px;
+		}
+	}
+	h2 {
+		font-size: 30px;
 	}
 	header {
 		padding-bottom: 70px;
@@ -272,6 +311,11 @@ section.social {
 		}
 		menu {
 			float: left;
+		}
+	}
+	section.hero {
+		.control-nav {
+			display: block;
 		}
 	}
 	section.servicios {
@@ -327,6 +371,12 @@ section.social {
 	}
 	body {
 		font-size: 125%;
+		li {
+			font-size: 18px;
+		}
+	}
+	h2 {
+		font-size: 66px;
 	}
 	section.hero h2 {
 		font-size: 50px;
@@ -342,7 +392,7 @@ section.social {
 	section.servicios {
 		.project {
 			@include span-columns(4);
-			height: 52em;
+			height: 45em;
 			&#project2,
 			&#project4 {
 				@include span-columns(4);

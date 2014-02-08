@@ -2,7 +2,7 @@
 set :markdown_engine, :redcarpet
 
 #Livereload
-activate :livereload
+#activate :livereload
 
 ### 
 # Compass

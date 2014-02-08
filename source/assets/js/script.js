@@ -33,12 +33,14 @@ jQuery(document).ready(function () {
 				 */
 				build:function () {
 
+                    //$.scrollTo(0,1000); should work!!
+
 					$('#logo').click(function(){
-						jQuery.scrollTo({top:'0', left:'+=0px'}, { duration:1000});
+						$.scrollTo({top:'0', left:'+=0px'}, { duration:1000});
 					});
 					$('#navigation').find('a').click(function(e){
 						e.preventDefault();
-						jQuery.scrollTo( $( $(this).attr('href') ) , { duration:1000});
+						$.scrollTo( $( $(this).attr('href') ) , { duration:1000});
 					});
 					$('#contacto-menu').find('a').click(function(e){
 						e.preventDefault();
