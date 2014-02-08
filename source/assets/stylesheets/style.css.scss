@@ -25,7 +25,7 @@ body {
 	overflow-x: hidden;
 }
 section {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid $proplac-black;
 	margin-bottom: 30px;
 }
 header .inner,
@@ -39,7 +39,7 @@ section .inner {
 header {
 	height: 25px;
 	padding: 15px 0 70px;
-	background: black;
+	background: $proplac-black;
 	@include clearfix();
 	.logo {
 		margin: 0 auto;
@@ -56,9 +56,10 @@ header {
 			font-size: 14px;
 			padding: 10px 30px;
 			background: white;
-			color: black;
+			color: $proplac-black;
 			display: block;
 			text-transform: uppercase;
+			font-family: 'pf_din_text_cond_probold';
 			&:hover {
 				background: #e7e6e6;
 			}
@@ -224,7 +225,11 @@ section.social {
 	}
 }
 
-//MEDIA QUERIES
+/*
+*
+*	Tablet
+*
+*/
 @include at-breakpoint(500px 10) {
 	header .inner,
 	footer .inner,
@@ -255,7 +260,7 @@ section.social {
 				}
 				a {
 					background: none;
-					color: #ffffff;
+					color: $light-grey;
 					padding-left: 0;
 					&:hover {
 						background: none;
@@ -301,7 +306,11 @@ section.social {
 	}
 }
 
-
+/*
+*
+*	Desktop
+*
+*/
 @include at-breakpoint(800px 12) {
 	header .inner,
 	footer .inner,
@@ -333,10 +342,16 @@ section.social {
 	section.servicios {
 		.project {
 			@include span-columns(4);
-			height: 35em;
+			height: 52em;
+			&#project2,
 			&#project4 {
 				@include span-columns(4);
 			}
+			&#project3,
+			&#project6 {
+				@include omega();
+			}
+
 		}
 	}
 	section.quienes-somos {

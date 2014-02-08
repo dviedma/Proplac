@@ -1,3 +1,9 @@
+/%li #{js_dir}
+/- data.mytest1.each do |t|
+/	%li= t
+/- data.mytest2.each do |f|
+/	%li(style="color:red")= f.name
+
 %section.hero
 	#slider1.slider
 		.slides-wrapper
@@ -38,61 +44,81 @@
 
 %section.servicios#servicios
 	.inner
-		%h2 SECTION
+		%h2 SERVICIOS
 		#project1.project
-			%h3 Subsection1
+			%h3 Falsos Techos
 			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 				%div{"data-src" => "#{lorem.image('500x100')}"}
 				%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('350x200')}"}
 				%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('380x380')}"}
 				%noscript
 					%img{:alt => "", :src => "#{lorem.image('500x100')}"}
-			%p #{lorem.paragraph}
+			%p En PROPLAC BCN proporcionamos múltiples soluciones en el campo de los falsos techos, tanto de tipo continuo (cielo raso) como registrable o desmontable.
+			%p En Techos continuos ofrecemos desde los techos más simples de placa de yeso laminado o cielo raso, para mejorar el confort térmico acústico de una vivienda, hasta complicados diseños en techos acústicos de auditorios, salas de fiesta y otras tipologías de edificios de concurrencia pública.
+			%p En Techos registrables la diversidad de opciones es infinita. A diferencia de los techos continuos, este sistema de falso techo permite acceder por completo a las instalaciones ubicadas en el plenum. PROPLAC BCN suministra e instala falsos techos registrables dentro de una amplia variedad de de posibilidades, tanto en materiales y formatos como prestaciones acústicas. Los materiales mas comunes son. viruta de madera, lana mineral, placa de yeso laminado, escayola, metálicos: bandejas y lamas, madera.
+
 		#project2.project
-			%h3 Subsection2
+			%h3 Tabiquería Seca
 			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 				%div{"data-src" => "#{lorem.image('500x100')}"}
 				%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('350x200')}"}
 				%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('380x380')}"}
 				%noscript
 					%img{:alt => "", :src => "#{lorem.image('500x100')}"}
-			%p #{lorem.paragraph}
+			%p Instalamos todo tipo de sistemas de tabiquería seca tanto divisorias de interiores como medianeras y tabicones concebidos para mejorar térmicamente acústicamente los espacios del usuario. Todos nuestros sistemas están conformidad con el Código Técnico de Edificación HE (ahorro energía) y HR (protección contra el ruido).
+			%p
+				Sus ventajas:
+				%ul
+					%li Rapidez de instalación
+					%li Simplicidad para los diseños creativos
+					%li Mejores cualidades acústicas y térmicas
+					%li Ligereza de sistemas
+					%li Ejecución limpia
+					%li Ejecución conjunta con otros gremios
+
 		#project3.project
-			%h3 Subsection3
+			%h3 Mobiliario interior
 			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 				%div{"data-src" => "#{lorem.image('500x100')}"}
 				%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('350x200')}"}
 				%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('380x380')}"}
 				%noscript
 					%img{:alt => "", :src => "#{lorem.image('500x100')}"}
-			%p #{lorem.paragraph}
+			%p Lejos de la fabricación en serie, en PROPLAC BCN producimos trabajos a medida y exclusivos. Gracias a nuestro equipo creamos composiciones que se adaptan a los deseos y necesidades de nuestros clientes.
+
+
 		#project4.project
-			%h3 Subsection4
+			%h3 Diseño de interiores
 			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 				%div{"data-src" => "#{lorem.image('500x100')}"}
 				%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('350x200')}"}
 				%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('380x380')}"}
 				%noscript
 					%img{:alt => "", :src => "#{lorem.image('500x100')}"}
-			%p #{lorem.paragraph}
+			%p En PROPLAC BCN trabajamos con ideas y su realización. Es por eso que ayudándonos con el presupuesto y las preferecias del cliente, generamos ideas sobre el espacio los elementos necesarios y su elaboración.
+			%p Le visitamos sin ningún compromiso, conocemos el espacio y sus necesisdades, se trazan las ideas generales del proyecto, le presentaremos diferentes propuestas de distribución y acabados y se le realiza el presupuesto.
+
 		#project5.project
-			%h3 Subsection5
+			%h3 Aislamientos
 			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 				%div{"data-src" => "#{lorem.image('500x100')}"}
 				%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('350x200')}"}
 				%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('380x380')}"}
 				%noscript
 					%img{:alt => "", :src => "#{lorem.image('500x100')}"}
-			%p #{lorem.paragraph}
-		#project6.project
-			%h3 Subsection6
-			%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-				%div{"data-src" => "#{lorem.image('500x100')}"}
-				%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('350x200')}"}
-				%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('380x380')}"}
-				%noscript
-					%img{:alt => "", :src => "#{lorem.image('500x100')}"}
-			%p #{lorem.paragraph}
+			%p En aislamientos térmicos tanto como en aislamientos acústicos gracias a los últimos avances en técnicas medioambientales, PROPLAC BCN ha incorporado en sus montajes de falsos techos y tabiques una serie de productos que aportan un mayor confort ambiental térmico y acústico a la vez que permiten un considerable ahorro de energía en las obras realizadas como viviendas o locales públicos.
+			%p En aislamientos ignífugos la normativa vigente exige que muchas de las instalaciones que existen en el edificio sean protegidas para resistir a la acción del fuego durante un tiempo determinado. Para conseguirlo en PROPLAC BCN ofrecemos la instalación de sistemas constructivos (RF) que protegen dichas instalaciones ante la amenaza del fuego.
+
+		-##project6.project
+		-#	%h3 Subsection6
+		-#	%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+		-#		%div{"data-src" => "#{lorem.image('500x100')}"}
+		-#		%div{"data-media" => "(min-width: 500px)", "data-src" => "#{lorem.image('350x200')}"}
+		-#		%div{"data-media" => "(min-width: 800px)", "data-src" => "#{lorem.image('380x380')}"}
+		-#		%noscript
+		-#			%img{:alt => "", :src => "#{lorem.image('500x100')}"}
+		-#	%p #{lorem.paragraph}
+
 %section.quienes-somos#quienes-somos
 	.inner
 		%h2 SECTION2

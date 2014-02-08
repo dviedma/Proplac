@@ -14,8 +14,8 @@
 			controlNav:true,
 			arrowsNav:false,
 			speed:'fast',
-			auto:false,
-			autoInterval:12000
+			auto:true,
+			autoInterval:10000
 		};
 
 		var options = $.extend({}, defaults, ops);
