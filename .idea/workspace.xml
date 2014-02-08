@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="" />
+    <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.eot" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.ttf" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.woff" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.eot" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.ttf" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.woff" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.svg" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextcondpro-bold-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.svg" afterPath="$PROJECT_DIR$/source/assets/fonts/pfdintextpro-medium-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/js/picturefill.js" afterPath="$PROJECT_DIR$/source/assets/js/picturefill.js" />
+    </list>
     <ignored path="Proplac.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +39,12 @@
         <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="122" column="10" selection-start="7837" selection-end="7837" vertical-scroll-proportion="-23.04">
-              <folding />
+              <folding>
+                <marker date="1391880650000" expanded="true" signature="8958:9752" placeholder="%section.social#social" />
+                <marker date="1391880650000" expanded="true" signature="9032:9752" placeholder=".inner" />
+                <marker date="1391880650000" expanded="true" signature="9601:9752" placeholder=".social-box.last.facebook" />
+                <marker date="1391880650000" expanded="true" signature="9653:9752" placeholder="%abbr.timeago{:title =&gt; &quot;&quot;}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,68 +151,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,7 +371,12 @@
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="122" column="10" selection-start="7837" selection-end="7837" vertical-scroll-proportion="-23.04">
-          <folding />
+          <folding>
+            <marker date="1391880650000" expanded="true" signature="8958:9752" placeholder="%section.social#social" />
+            <marker date="1391880650000" expanded="true" signature="9032:9752" placeholder=".inner" />
+            <marker date="1391880650000" expanded="true" signature="9601:9752" placeholder=".social-box.last.facebook" />
+            <marker date="1391880650000" expanded="true" signature="9653:9752" placeholder="%abbr.timeago{:title =&gt; &quot;&quot;}" />
+          </folding>
         </state>
       </provider>
     </entry>
