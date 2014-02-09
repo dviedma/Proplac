@@ -113,7 +113,24 @@ header {
 
 		}
 	}
+}
 
+//FOOTER
+footer {
+	padding: 100px 0;
+	background: black;
+	.logos-supplier {
+		ul {
+			text-align: center;
+			li {
+				height: 50px;
+				width: 100px;
+				list-style: none;
+				display: inline-block;
+				margin: 0 10px 20px;
+			}
+		}
+	}
 }
 
 //SLIDER
