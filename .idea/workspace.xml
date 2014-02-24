@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/nosotros/nosotros.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/desktop/aislamientos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/desktop/diseny.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/desktop/mobiliario.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/desktop/tabiqueria.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/desktop/techos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/phone/aislamientos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/phone/diseny.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/phone/mobiliario.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/phone/tabiqueria.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/phone/techos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/tablet/aislamientos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/tablet/diseny.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/tablet/mobiliario.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/tablet/tabiqueria.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/servicios/tablet/techos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/nosotros/phone/nosotros.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/nosotros/tablet/nosotros.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/assets/img/slide1-ipad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/assets/img/slide1-iphone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/assets/img/slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/assets/img/slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/assets/img/slide3.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/assets/img/nosotros/nosotros.jpg" afterPath="$PROJECT_DIR$/source/assets/img/nosotros/desktop/nosotros.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html.haml" afterPath="$PROJECT_DIR$/source/index.html.haml" />
     </list>
@@ -44,9 +36,16 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="107" selection-start="11608" selection-end="11608" vertical-scroll-proportion="0.5435816">
+            <state line="181" column="57" selection-start="11418" selection-end="11418" vertical-scroll-proportion="4.5388274">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proplac-logo.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/assets/img/proplac-logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -278,6 +277,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proplac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proplac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -296,18 +321,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/assets/img/nosotros/phone" />
+      <recent name="$PROJECT_DIR$/source/assets/img/nosotros/tablet" />
+      <recent name="$PROJECT_DIR$/source/assets/img/nosotros" />
       <recent name="$PROJECT_DIR$/source/assets/img/servicios/phone" />
       <recent name="$PROJECT_DIR$/source/assets/img/servicios/desktop" />
-      <recent name="$PROJECT_DIR$/source/assets/img/servicios" />
-      <recent name="$PROJECT_DIR$/source/assets/img/slider/phone" />
-      <recent name="$PROJECT_DIR$/source/assets/img/slider/tablet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/assets/img/nosotros/desktop" />
       <recent name="$PROJECT_DIR$/source/assets/img/nosotros" />
       <recent name="$PROJECT_DIR$/source/assets/img/servicios/phone" />
       <recent name="$PROJECT_DIR$/source/assets/img/servicios/tablet" />
       <recent name="$PROJECT_DIR$/source/assets/img/servicios/desktop" />
-      <recent name="$PROJECT_DIR$/source/assets/fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -349,13 +374,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="718" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31328124" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31328124" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -366,7 +392,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -431,26 +456,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/assets/js/vendor/jquery.scrollTo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/site_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/favicon_base.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -484,21 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/img/slide1-iphone.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/img/slide1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/img/slide1-ipad.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="0" selection-end="1304" vertical-scroll-proportion="0.0">
@@ -516,9 +506,19 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/assets/img/home-s9bcfdc7a0b.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/assets/img/proplac-logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="107" selection-start="11608" selection-end="11608" vertical-scroll-proportion="0.5435816">
+        <state line="181" column="57" selection-start="11418" selection-end="11418" vertical-scroll-proportion="4.5388274">
           <folding />
         </state>
       </provider>
