@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss" afterPath="$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html.haml" afterPath="$PROJECT_DIR$/source/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/layouts/layout.haml" afterPath="$PROJECT_DIR$/source/layouts/layout.haml" />
     </list>
     <ignored path="Proplac.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="12" selection-start="4522" selection-end="4522" vertical-scroll-proportion="0.8114105">
+            <state line="176" column="38" selection-start="11454" selection-end="11454" vertical-scroll-proportion="-112.64">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/partials/_header.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="38" selection-start="945" selection-end="945" vertical-scroll-proportion="0.85048234">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="79" selection-start="954" selection-end="954" vertical-scroll-proportion="-15.36">
               <folding />
             </state>
           </provider>
@@ -64,7 +85,16 @@
       <file leaf-file-name="_fonts.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="0" selection-end="1304" vertical-scroll-proportion="0.0">
+            <state line="29" column="18" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="415" column="22" selection-start="5919" selection-end="5919" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,16 +119,16 @@
         <option value="$PROJECT_DIR$/source/assets/js/funcarousel.js" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/source/partials/_header.haml" />
         <option value="$PROJECT_DIR$/source/assets/js/vendor/jquery-1.8.0.min.js" />
         <option value="$PROJECT_DIR$/source/assets/js/vendor/jquery.scrollTo.js" />
         <option value="$PROJECT_DIR$/source/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/source/layouts/layout.haml" />
         <option value="$PROJECT_DIR$/helpers/site_helpers.rb" />
-        <option value="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/source/partials/_footer.haml" />
+        <option value="$PROJECT_DIR$/source/layouts/layout.haml" />
         <option value="$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
+        <option value="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
+        <option value="$PROJECT_DIR$/source/partials/_header.haml" />
       </list>
     </option>
   </component>
@@ -220,26 +250,8 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,12 +272,26 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="Proplac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proplac" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="trabajos" />
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,37 +463,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="78" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-14.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/partials/_header.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="49" selection-start="370" selection-end="370" vertical-scroll-proportion="-8.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="12" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/partials/_footer.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="23" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="0" selection-end="1304" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -497,9 +495,37 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="79" selection-start="954" selection-end="954" vertical-scroll-proportion="-15.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="415" column="22" selection-start="5919" selection-end="5919" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="12" selection-start="4522" selection-end="4522" vertical-scroll-proportion="0.8114105">
+        <state line="176" column="38" selection-start="11454" selection-end="11454" vertical-scroll-proportion="-112.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/partials/_header.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="38" selection-start="945" selection-end="945" vertical-scroll-proportion="0.85048234">
           <folding />
         </state>
       </provider>

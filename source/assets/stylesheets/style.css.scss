@@ -24,8 +24,11 @@
 body {
 	overflow-x: hidden;
 	li {
-		font-size: 14px;
+		font-size: 12px;
 	}
+}
+.proplac-red {
+	color: $proplac-red;
 }
 section {
 	margin-bottom: 30px;
@@ -190,11 +193,12 @@ section.hero {
 		text-indent: -9999px;
 		margin: 0 5px;
 		cursor: pointer;
+		border-radius: 12px;
 	}
 
 	/* line 43, ../../sass/core/funcarousel.scss */
 	.control-nav .wrapper .control.active {
-		background: #aaaaaa;
+		background: $proplac-red;
 	}
 
 	/* line 50, ../../sass/core/funcarousel.scss */
@@ -290,7 +294,7 @@ section.social {
 	body {
 		font-size: 112.5%;
 		li {
-			font-size: 16px;
+			font-size: 12px;
 		}
 	}
 	h2 {
@@ -389,7 +393,7 @@ section.social {
 	body {
 		font-size: 125%;
 		li {
-			font-size: 18px;
+			font-size: 14px;
 		}
 	}
 	h2 {
@@ -409,7 +413,7 @@ section.social {
 	section.servicios {
 		.project {
 			@include span-columns(4);
-			height: 45em;
+			height: 35em;
 			&#project2,
 			&#project4 {
 				@include span-columns(4);
