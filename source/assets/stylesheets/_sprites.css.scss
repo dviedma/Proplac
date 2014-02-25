@@ -1,4 +1,4 @@
-$home-sprite-dimensions: true;
-$home-sprite-layout: smart;
-@import "home/*.png";
-@include all-home-sprites;
+$icons-sprite-dimensions: true;
+$icons-sprite-layout: smart;
+@import "icons/*.png";
+@include all-icons-sprites;

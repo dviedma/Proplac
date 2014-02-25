@@ -23,6 +23,7 @@
 }*/
 body {
 	overflow-x: hidden;
+	padding-top: 55px;
 	li {
 		font-size: 12px;
 	}
@@ -62,11 +63,11 @@ header {
 	height: 25px;
 	padding: 15px 0 70px;
 	background: $proplac-black;
-/*	position: fixed;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 90;
-	width: 100%;*/
+	width: 100%;
 	@include clearfix();
 	.logo {
 		margin: 0 auto;
@@ -102,17 +103,28 @@ header {
 			list-style: none;
 		}
 	}
-	menu {
-		right: 20px;
-		a {
-			height: 14px;
-		}
-		li {
-			list-style: none;
-		}
-		.etiqueta {
-			padding: 3px 0;
-			height: 20px;
+	.contacto {
+		float: right;
+		margin-top: 7px;
+		.menu-item {
+			float: left;
+			padding-left: 21px;
+			a {
+				height: 14px;
+				.icono {
+					margin-right: 5px;
+				}
+				.etiqueta {
+					font-size: 15px;
+					color: white;
+					height: 20px;
+				}
+				&:hover {
+					.etiqueta {
+						color: $proplac-red;
+					}
+				}
+			}
 
 		}
 	}
@@ -306,30 +318,7 @@ section.social {
 			margin-left: 0;
 			float: left;
 		}
-		#navigation {
-			float: left;
-			position: relative;
-			clear: both;
- 			li {
-				&.menu-item {
-					float: left;
-					display: block;
-				}
-				&#menu-btn {
-					display: none;
-				}
-				a {
-					background: none;
-					color: $light-grey;
-					padding-left: 0;
-					&:hover {
-						background: none;
-						color: $proplac-red;
 
-					}
-				}
-			}
-		}
 		menu {
 			float: left;
 		}
@@ -387,7 +376,32 @@ section.social {
 		padding-bottom: 15px;
 		#navigation {
 			clear: none;
-			margin-left: 50px;
+		}
+	}
+	#navigation {
+		float: left;
+		position: relative;
+		clear: both;
+		margin-left: 180px;
+		li {
+			&.menu-item {
+				float: left;
+				display: block;
+			}
+			&#menu-btn {
+				display: none;
+			}
+			a {
+				background: none;
+
+				color: white;
+				padding-left: 0;
+				&:hover {
+					background: none;
+					color: $proplac-red;
+
+				}
+			}
 		}
 	}
 	body {
