@@ -152,7 +152,7 @@ footer {
 section.hero {
 	padding-bottom: 20px;
 	.slider {
-		overflow: hidden;
+		//overflow: hidden;
 		position: relative;
 		.slide {
 			position: absolute;
@@ -184,7 +184,7 @@ section.hero {
 		display: none;
 		padding-top: 10px;
 		margin: 0 auto;
-		bottom: 60px;
+		bottom: -35px;
 		margin: 0;
 		position: absolute;
 		width: 100%;
