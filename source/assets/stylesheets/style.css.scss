@@ -427,7 +427,7 @@ section.social {
 	section.servicios {
 		.project {
 			@include span-columns(4);
-			height: 35em;
+			height: 38em;
 			&#project2,
 			&#project4 {
 				@include span-columns(4);
