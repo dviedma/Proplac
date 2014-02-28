@@ -152,7 +152,8 @@ header {
 
 //FOOTER
 footer {
-	padding: 100px 0;
+	color: white;
+	padding: 100px 0 20px;
 	background: black;
 	.logos-supplier {
 		ul {
@@ -165,6 +166,16 @@ footer {
 				margin: 0 10px 20px;
 			}
 		}
+	}
+	h4 {
+		margin: -50px 0 20px;
+		font-size: 15px;
+	}
+	.copyright {
+		text-align: center;
+		margin: 50px 0 10px;
+		font-style: italic;
+		font-size: 10px;
 	}
 }
 
