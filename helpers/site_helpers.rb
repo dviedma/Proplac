@@ -1,7 +1,7 @@
 module SiteHelpers
 
   def page_title
-    title = "Proplac"
+    title = "Proplac BCN"
     if data.page.title
       title << " | " + data.page.title
     end
@@ -12,7 +12,7 @@ module SiteHelpers
     if data.page.description
       description = data.page.description
     else
-      description = "Set your site description in /helpers/site_helpers.rb"
+      description = "Especialistas de la tabiqueria seca en Barcelona. Falsos techos, tabiquería seca, aislamientos térmicos, acústicos e ignífugos, mobiliario interior, diseño de interiores."
     end
     description
   end

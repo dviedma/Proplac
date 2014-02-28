@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/partials/_footer.haml" afterPath="$PROJECT_DIR$/source/partials/_footer.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/favicon.gif" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/favicon_base.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/site_helpers.rb" afterPath="$PROJECT_DIR$/helpers/site_helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/layouts/layout.haml" afterPath="$PROJECT_DIR$/source/layouts/layout.haml" />
     </list>
     <ignored path="Proplac.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,16 +41,34 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="85" selection-start="3826" selection-end="3826" vertical-scroll-proportion="74.6">
+            <state line="65" column="85" selection-start="3826" selection-end="3826" vertical-scroll-proportion="-41.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="208" selection-start="751" selection-end="751" vertical-scroll-proportion="0.34154353">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site_helpers.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/site_helpers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="191" selection-start="276" selection-end="446" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/partials/_footer.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="80" selection-start="725" selection-end="725" vertical-scroll-proportion="0.49689442">
+            <state line="20" column="80" selection-start="725" selection-end="725" vertical-scroll-proportion="-12.8">
               <folding />
             </state>
           </provider>
@@ -94,17 +117,17 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/source/assets/js/vendor/jquery-1.8.0.min.js" />
         <option value="$PROJECT_DIR$/source/assets/js/vendor/jquery.scrollTo.js" />
-        <option value="$PROJECT_DIR$/helpers/site_helpers.rb" />
         <option value="$PROJECT_DIR$/source/assets/stylesheets/_fonts.css.scss" />
         <option value="$PROJECT_DIR$/source/assets/stylesheets/_sprites.css.scss" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/source/partials/_header.haml" />
         <option value="$PROJECT_DIR$/source/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/source/layouts/layout.haml" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/source/partials/_footer.haml" />
+        <option value="$PROJECT_DIR$/helpers/site_helpers.rb" />
+        <option value="$PROJECT_DIR$/source/layouts/layout.haml" />
       </list>
     </option>
   </component>
@@ -226,58 +249,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,76 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logos-suppliers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proplac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,11 +308,11 @@
       <recent name="$PROJECT_DIR$/source/assets/img/servicios/phone" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source" />
       <recent name="$PROJECT_DIR$/source/assets/img" />
       <recent name="$PROJECT_DIR$/source/assets/img/icons" />
       <recent name="$PROJECT_DIR$/source/assets/img/nosotros/desktop" />
       <recent name="$PROJECT_DIR$/source/assets/img/nosotros" />
-      <recent name="$PROJECT_DIR$/source/assets/img/servicios/phone" />
     </key>
   </component>
   <component name="RunManager">
@@ -535,16 +436,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/assets/img/proplac-logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/img/slider/desktop/slider1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/assets/img/slider/desktop/slider2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -583,23 +474,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/site_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/partials/_header.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="28" selection-start="92" selection-end="101" vertical-scroll-proportion="-4.48">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="72" selection-start="794" selection-end="794" vertical-scroll-proportion="-12.16">
           <folding />
         </state>
       </provider>
@@ -623,16 +500,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/source/partials/_footer.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="85" selection-start="3826" selection-end="3826" vertical-scroll-proportion="74.6">
+        <state line="20" column="80" selection-start="725" selection-end="725" vertical-scroll-proportion="-12.8">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/partials/_footer.haml">
+    <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="80" selection-start="725" selection-end="725" vertical-scroll-proportion="0.49689442">
+        <state line="65" column="85" selection-start="3826" selection-end="3826" vertical-scroll-proportion="-41.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/site_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="191" selection-start="276" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="208" selection-start="751" selection-end="751" vertical-scroll-proportion="0.34154353">
           <folding />
         </state>
       </provider>
