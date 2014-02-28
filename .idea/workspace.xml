@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/favicon.gif" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/favicon_base.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/site_helpers.rb" afterPath="$PROJECT_DIR$/helpers/site_helpers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/layouts/layout.haml" afterPath="$PROJECT_DIR$/source/layouts/layout.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" afterPath="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
     </list>
     <ignored path="Proplac.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="208" selection-start="751" selection-end="751" vertical-scroll-proportion="0.34154353">
+            <state line="47" column="28" selection-start="2514" selection-end="2515" vertical-scroll-proportion="-14.745098">
               <folding />
             </state>
           </provider>
@@ -74,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="25" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.0">
+            <state line="32" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.39567232">
               <folding />
             </state>
           </provider>
@@ -124,10 +120,10 @@
         <option value="$PROJECT_DIR$/source/partials/_header.haml" />
         <option value="$PROJECT_DIR$/source/assets/js/script.js" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
-        <option value="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
         <option value="$PROJECT_DIR$/source/partials/_footer.haml" />
         <option value="$PROJECT_DIR$/helpers/site_helpers.rb" />
         <option value="$PROJECT_DIR$/source/layouts/layout.haml" />
+        <option value="$PROJECT_DIR$/source/assets/stylesheets/style.css.scss" />
       </list>
     </option>
   </component>
@@ -283,6 +279,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proplac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proplac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="25" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/assets/img/logos-suppliers/armstrong_logo.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -523,7 +526,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/layouts/layout.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="208" selection-start="751" selection-end="751" vertical-scroll-proportion="0.34154353">
+        <state line="47" column="28" selection-start="2514" selection-end="2515" vertical-scroll-proportion="-14.745098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.39567232">
           <folding />
         </state>
       </provider>
