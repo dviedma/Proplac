@@ -28,6 +28,10 @@ body {
 		font-size: 12px;
 	}
 }
+img {
+	width: 100%!important;
+}
+
 .proplac-red {
 	color: $proplac-red;
 }
@@ -61,21 +65,29 @@ strong {
 //HEADER STYLES
 header {
 	height: 25px;
-	padding: 15px 0 70px;
+	padding: 15px 0;
 	background: $proplac-black;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 90;
 	width: 100%;
-	@include clearfix();
+	//@include clearfix();
 	.logo {
+		float: left;
 		margin: 0 auto;
 		margin-bottom: 20px;
 		cursor: pointer;
+		background: url(../img/proplac-logo-small.png) no-repeat;
+		width: 23px;
+		height: 25px;
+		text-indent: -9999px;
+	}
+	#navigation {
+		position: absolute;
+		margin-left: 50px;
 	}
 	#navigation, menu {
-		position: absolute;
 		z-index: 10;
 		.menu-item {
 			display: none;
@@ -103,6 +115,18 @@ header {
 			list-style: none;
 		}
 	}
+	#menu-btn {
+		background: url(../img/menu.png) no-repeat;
+		width: 25px;
+		height: 25px;
+		text-indent: -9999px;
+		a {
+			background: none;
+			&:hover {
+				background: none;
+			}
+		}
+	}
 	.contacto {
 		float: right;
 		margin-top: 7px;
@@ -115,7 +139,7 @@ header {
 					margin-right: 5px;
 				}
 				.etiqueta {
-					font-size: 15px;
+					display: none;
 					color: white;
 					height: 20px;
 				}
@@ -131,9 +155,12 @@ header {
 }
 
 //FOOTER
+
 footer {
-	padding: 100px 0;
+	color: white;
+	padding: 100px 0 20px;
 	background: black;
+	width: 100%;
 	.logos-supplier {
 		ul {
 			text-align: center;
@@ -145,6 +172,16 @@ footer {
 				margin: 0 10px 20px;
 			}
 		}
+	}
+	h4 {
+		margin: -50px 0 20px;
+		font-size: 15px;
+	}
+	.copyright {
+		text-align: center;
+		margin: 50px 0 10px;
+		font-style: italic;
+		font-size: 10px;
 	}
 }
 
@@ -313,7 +350,6 @@ section.social {
 		font-size: 30px;
 	}
 	header {
-		padding-bottom: 70px;
 		.logo {
 			margin-left: 0;
 			float: left;
@@ -321,6 +357,13 @@ section.social {
 
 		menu {
 			float: left;
+		}
+
+		.contacto {
+			.etiqueta {
+				display: block!important;
+				font-size: 12px;
+			}
 		}
 	}
 	section.hero {
@@ -377,30 +420,9 @@ section.social {
 		#navigation {
 			clear: none;
 		}
-	}
-	#navigation {
-		float: left;
-		position: relative;
-		clear: both;
-		margin-left: 180px;
-		li {
-			&.menu-item {
-				float: left;
-				display: block;
-			}
-			&#menu-btn {
-				display: none;
-			}
-			a {
-				background: none;
-
-				color: white;
-				padding-left: 0;
-				&:hover {
-					background: none;
-					color: $proplac-red;
-
-				}
+		.contacto {
+			.etiqueta {
+				font-size: 14px;
 			}
 		}
 	}
@@ -458,6 +480,42 @@ section.social {
 		}
 	}
 }
+
+@include at-breakpoint(990px 12) {
+	header {
+		.logo {
+			background: url(../img/proplac-logo.png) no-repeat;
+			width: 150px;
+		}
+
+		#navigation {
+			margin-left: 180px;
+			li {
+				&.menu-item {
+					float: left;
+					display: block;
+				}
+				&#menu-btn {
+					display: none;
+				}
+				a {
+					background: none;
+
+					color: white;
+					padding-left: 0;
+					&:hover {
+						background: none;
+						color: $proplac-red;
+
+					}
+				}
+			}
+		}
+
+	}
+
+}
+
 
 
 
