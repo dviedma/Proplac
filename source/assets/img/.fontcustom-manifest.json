@@ -1,0 +1,18 @@
+{
+  "fonts": [
+    "/Users/danielv/Projects/Proplac/source/assets/img/fontcustom/fontcustom_7313c75e870b2962f96ae01b4c8bd4ec.ttf",
+    "/Users/danielv/Projects/Proplac/source/assets/img/fontcustom/fontcustom_7313c75e870b2962f96ae01b4c8bd4ec.woff",
+    "/Users/danielv/Projects/Proplac/source/assets/img/fontcustom/fontcustom_7313c75e870b2962f96ae01b4c8bd4ec.eot",
+    "/Users/danielv/Projects/Proplac/source/assets/img/fontcustom/fontcustom_7313c75e870b2962f96ae01b4c8bd4ec.svg"
+  ],
+  "templates": [
+    "/Users/danielv/Projects/Proplac/source/assets/img/fontcustom/fontcustom.css",
+    "/Users/danielv/Projects/Proplac/source/assets/img/fontcustom/fontcustom-preview.html"
+  ],
+  "glyphs": [
+    "email",
+    "instagram",
+    "menu",
+    "telephone"
+  ]
+}
