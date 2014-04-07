@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="" />
     <ignored path="Proplac.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../iD/retail/build/app/views/group-select/group-select.js" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1393353967769" ignored="false" />
@@ -14,6 +12,16 @@
     <file path="/index.html.haml" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1393348941761" ignored="false" />
     <file path="/.gitignore" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1393344992136" ignored="false" />
     <file path="/Dummy.txt" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394127095809" ignored="false" />
+    <file path="$PROJECT_DIR$/../iD/retail/src/app/debug/debug.js" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394133839336" ignored="false" />
+    <file path="$PROJECT_DIR$/../iD/retail/poc/bootstrap-loader/index.html" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394469189043" ignored="false" />
+    <file path="/index.html" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394468944582" ignored="false" />
+    <file path="/styles.css" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394468984781" ignored="false" />
+    <file path="$PROJECT_DIR$/../iD/retail/poc/bootstrap-loader/styles.css" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394468985705" ignored="false" />
+    <file path="/dummy.xml" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394468894183" ignored="false" />
+    <file path="$PROJECT_DIR$/../iD/retail/poc/bootstrap-loader/styles.scss" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394475791189" ignored="false" />
+    <file path="$PROJECT_DIR$/../iD/retail/Gruntfile.js" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394475892872" ignored="false" />
+    <file path="$PROJECT_DIR$/../iD/retail/src/sass/main/modules/_nav.scss" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394475443461" ignored="false" />
+    <file path="/styles.scss" changelist="dff596a1-835b-4e8e-9e6b-ed7c47897420" time="1394475790421" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +44,7 @@
       <file leaf-file-name="style.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="23" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.5053476">
+            <state line="194" column="25" selection-start="2769" selection-end="2769" vertical-scroll-proportion="-5.2700534">
               <folding />
             </state>
           </provider>
@@ -216,6 +224,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proplac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proplac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,6 +461,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.SASS/SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootstrap-loader" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -490,8 +521,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="819" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="819" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -595,7 +626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="24" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -666,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/assets/stylesheets/style.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="23" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.5053476">
+        <state line="194" column="25" selection-start="2769" selection-end="2769" vertical-scroll-proportion="-5.2700534">
           <folding />
         </state>
       </provider>
