@@ -13,6 +13,7 @@
 # Ignore Sass' cache
 /.sass-cache
 
+/.idea
 /.idea/workspace.xml
 
 /.DS_Store
