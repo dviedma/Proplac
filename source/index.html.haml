@@ -9,7 +9,16 @@
 		.slides-wrapper
 			.slides
 				.slide.active(style="display:block" )
-					/ %img{:alt => "", :src => "assets/img/slide1.jpg"}
+					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+						%div{"data-src" => "assets/img/slider/phone/slider11.jpg"}
+						%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/slider/tablet/slider11.jpg"}
+						%div{"data-media" => "(min-width: 800px)", "data-src" => "assets/img/slider/desktop/slider11.jpg"}
+				.slide(style="display:none" )
+					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+						%div{"data-src" => "assets/img/slider/phone/slider10.jpg"}
+						%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/slider/tablet/slider10.jpg"}
+						%div{"data-media" => "(min-width: 800px)", "data-src" => "assets/img/slider/desktop/slider10.jpg"}
+				.slide(style="display:none" )
 					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 						%div{"data-src" => "assets/img/slider/phone/slider1.jpg"}
 						%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/slider/tablet/slider1.jpg"}
@@ -56,14 +65,6 @@
 						%div{"data-media" => "(min-width: 800px)", "data-src" => "assets/img/slider/desktop/slider6.jpg"}
 						%noscript
 							%img{:alt => "", :src => "assets/img/proplac-logo-big.png"}
-				.slide(style="display:none" )
-					/ %img{:alt => "", :src => "assets/img/slide1.jpg"}
-					%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-						%div{"data-src" => "assets/img/slider/phone/slider8.jpg"}
-						%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/slider/tablet/slider8.jpg"}
-						%div{"data-media" => "(min-width: 800px)", "data-src" => "assets/img/slider/desktop/slider8.jpg"}
-						%noscript
-							%img{:alt => "", :src => "assets/img/proplac-logo-big.png"}
 
 %section.servicios#servicios
 	.inner
@@ -79,7 +80,6 @@
 			%p En PROPLAC BCN proporcionamos múltiples soluciones en el campo de los falsos techos, tanto de tipo continuo (cielo raso) como registrable o desmontable.
 			%p En Techos continuos ofrecemos desde los techos más simples de placa de yeso laminado o cielo raso, para mejorar el confort térmico acústico de una vivienda, hasta complicados diseños en techos acústicos de auditorios, salas de fiesta y otras tipologías de edificios de concurrencia pública.
 			%p En Techos registrables la diversidad de opciones es infinita. A diferencia de los techos continuos, este sistema de falso techo permite acceder por completo a las instalaciones ubicadas en el plenum.
-			/PROPLAC BCN suministra e instala falsos techos registrables dentro de una amplia variedad de de posibilidades, tanto en materiales y formatos como prestaciones acústicas. Los materiales mas comunes son. viruta de madera, lana mineral, placa de yeso laminado, escayola, metálicos: bandejas y lamas, madera.
 
 		#project2.project
 			%h3 Tabiquería Seca
@@ -167,11 +167,26 @@
 %section.trabajos-realizados#trabajos-realizados
 	.inner
 		%h2 <span class="proplac-red">T</span>RABAJOS REALIZADOS
+
 		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-			%div{"data-src" => "assets/img/trabajos/300x200_1.jpg"}
-			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/600x400_1.jpg"}
-			%noscript
-				%img{:alt => "", :src => "#{lorem.image('300x200')}"}
+			%div{"data-src" => "assets/img/trabajos/b.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/c.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/d.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/a.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/e.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/f.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/g.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/h.jpg"}
+		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
+			%div{"data-src" => "assets/img/trabajos/i.jpg"}
+
 		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 			%div{"data-src" => "assets/img/trabajos/200x200.jpg"}
 			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/400x400.jpg"}
@@ -198,31 +213,6 @@
 			%noscript
 				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
 
-		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-			%div{"data-src" => "assets/img/trabajos/150x200_3.jpg"}
-			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/300x400_3.jpg"}
-			%noscript
-				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
-		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-			%div{"data-src" => "assets/img/trabajos/300x200_3.jpg"}
-			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/600x400_3.jpg"}
-			%noscript
-				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
-		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-			%div{"data-src" => "assets/img/trabajos/150x200_4.jpg"}
-			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/300x400_4.jpg"}
-			%noscript
-				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
-		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-			%div{"data-src" => "assets/img/trabajos/300x200_4.jpg"}
-			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/600x400_4.jpg"}
-			%noscript
-				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
-		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-			%div{"data-src" => "assets/img/trabajos/150x200_5.jpg"}
-			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/300x400_5.jpg"}
-			%noscript
-				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
 		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
 			%div{"data-src" => "assets/img/trabajos/300x200_5.jpg"}
 			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/600x400_5.jpg"}
@@ -258,11 +248,7 @@
 			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/300x400_9.jpg"}
 			%noscript
 				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
-		%div{"data-alt" => "", "data-picture" => "", "class" => "media-block"}
-			%div{"data-src" => "assets/img/trabajos/200x200_2.jpg"}
-			%div{"data-media" => "(min-width: 500px)", "data-src" => "assets/img/trabajos/400x400_2.jpg"}
-			%noscript
-				%img{:alt => "", :src => "#{lorem.image('325x200')}"}
+
 
 
 -#%section.social#social
