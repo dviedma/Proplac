@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/g.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/trabajos/i.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/slider/desktop/slider10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/slider/phone/slider10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/slider/tablet/slider10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/slider/desktop/slider11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/slider/phone/slider11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/assets/img/slider/tablet/slider11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/partials/_footer.haml" afterPath="$PROJECT_DIR$/source/partials/_footer.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html.haml" afterPath="$PROJECT_DIR$/source/index.html.haml" />
-    </list>
+    <list default="true" id="dff596a1-835b-4e8e-9e6b-ed7c47897420" name="Default" comment="" />
     <ignored path="Proplac.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -471,12 +453,12 @@
       <created>1359127943381</created>
       <updated>1359127943381</updated>
       <workItem from="1401811838154" duration="228000" />
-      <workItem from="1424726147575" duration="138000" />
+      <workItem from="1424726147575" duration="399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366000" />
+    <option name="totallyTimeSpent" value="627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="-976" width="1440" height="817" extended-state="6" />
